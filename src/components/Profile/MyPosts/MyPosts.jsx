@@ -9,8 +9,8 @@ function MyPosts(){
                 New post
             </div>
             <div>
-                <Post message='Hi, how are you?' />
-                <Post message='It my first post' />
+                <Post message='Hi, how are you?' like='20'/>
+                <Post message='It my first post' like='30'/>
                 <Post />
             </div>
         </div>
