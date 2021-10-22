@@ -12,10 +12,6 @@
     color: white;
 }
 
-.nav_link {
-    color: black;
-}
-
-.active {
+.nav a.active {
     color: gold;
 }
