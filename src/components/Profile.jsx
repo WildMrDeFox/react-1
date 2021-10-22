@@ -1,6 +1,8 @@
+import p from './Profile.module.css'
+
 function Profile(){
     return (
-        <div className='content'>
+        <div className={p.content}>
             <div>
                 <img src="https://i.redd.it/bohmf1gew2y61.jpg" alt=""/>
             </div>
@@ -13,9 +15,9 @@ function Profile(){
                     New post
                 </div>
                 <div>
-                    <div>post 1</div>
-                    <div>post 2</div>
-                    <div>post 3</div>
+                    <div className='item'>post 1</div>
+                    <div className='item'>post 2</div>
+                    <div className='item'>post 3</div>
                 </div>
             </div>
         </div>
