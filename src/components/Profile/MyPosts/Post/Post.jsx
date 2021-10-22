@@ -7,6 +7,7 @@ function Post() {
             <div>Text</div>
             <div>
                 <span>Like</span>
+                dfsdfs
             </div>
         </div>
     )
