@@ -20,10 +20,15 @@ let messagesData = [
     {id: 5, message: 'Good'},
 ]
 
+let posts = [
+    {id: 1, message: 'Hi, how are you?', like: 12},
+    {id: 2, message: 'It my first post', like: 11},
+]
+
 
 ReactDOM.render(
   <React.StrictMode>
-    <App dialog={dialogsData} message={messagesData}/>
+    <App dialog={dialogsData} message={messagesData} posts={posts}/>
   </React.StrictMode>,
   document.getElementById('root')
 );
